@@ -6,7 +6,7 @@ import Button from "../../components/Button";
 function Navbar() {
   return <nav className={styles.navbar}>
     <Button btnClassName={"red"} link={'kun.uz'} btnTitle={'salom'}  />
-    <Button btnClassName={"borderRed"} link={'kun.uz'} btnTitle={'salomred'}  />
+    {/* <Button btnClassName={"borderRed"} link={'kun.uz'} btnTitle={'salomred'}  /> */}
   </nav>;
 }
 
