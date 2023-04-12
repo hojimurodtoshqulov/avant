@@ -1,0 +1,19 @@
+.ourproject{
+    display: flex;
+
+}
+.card{
+    margin: 5% 5%;
+}
+ 
+.order1{
+    order: 1;
+}
+.order2{
+    order: 2;
+}
+.line{
+    width: 100%;
+    background-color: rgb(69, 68, 68);
+    height: 2px;
+}

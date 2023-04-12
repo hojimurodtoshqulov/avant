@@ -4,9 +4,10 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import { routeGenerator } from "../../utils/routeGenerator";
 import styles from "./layout.module.scss";
-import SimpleSlider from "../../components/slider";
-import Slider from "react-slick";
-import Stadi from "../../components/Stadi";
+import Slider from "../../components/slider";
+import Homecateg from "../../components/homecateg";
+import OurProject from "../../components/OurProject";
+import Mincateg from "../../components/mincateg";
 
 
 function AppLayout() {
@@ -14,9 +15,20 @@ function AppLayout() {
     <div className={styles.layout}>
       <Navbar />
       {routeGenerator(routeConfig)}
-      <Stadi />
-      <SimpleSlider />
+      <Homecateg />
+      <OurProject 
+      subtitle={'УНИКАЛЬНЫЕ ЗДАНИЯ И СООРУЖЕНИЯ / МЕТАЛЛОКОНСТРУКЦИИ'}
+      title={'Magic city'}
+      line={'black'}
+      img={'https://repost.uz/storage/uploads/8-1623848387-adves-post-material.png'}
+      theme
+      location={'Г. Ташкент, Улица Бобура, 174'}
+      text={'Каркасная часть многих зданий внутри парка построен на основе металлоконструкций нашего производство.'}
+       />
+      <Slider />
       <Footer />
+      <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} />
+      <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} />
     </div>
   );
 }

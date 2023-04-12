@@ -1,0 +1,12 @@
+.Category{
+    display: flex;
+    gap: 5%;
+    align-items: flex-start;
+    img{
+        display: flex;
+    }
+
+    .red{
+        background-color: red;
+    }
+}
