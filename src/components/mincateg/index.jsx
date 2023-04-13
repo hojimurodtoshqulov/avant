@@ -5,7 +5,7 @@ function Mincateg({img, title}) {
     return (
         <div className={c.Mincateg}>
             <div className={c.img}><img src={img} alt="" /></div>
-            <h3>{title}</h3>
+            <h3 className={c.text}>{title}</h3>
         </div>
     )
 }

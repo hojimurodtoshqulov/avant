@@ -15,7 +15,7 @@ function AppLayout() {
     <div className={styles.layout}>
       <Navbar />
       {routeGenerator(routeConfig)}
-      <Homecateg />
+      {/* <Homecateg />
       <OurProject 
       subtitle={'УНИКАЛЬНЫЕ ЗДАНИЯ И СООРУЖЕНИЯ / МЕТАЛЛОКОНСТРУКЦИИ'}
       title={'Magic city'}
@@ -25,10 +25,10 @@ function AppLayout() {
       location={'Г. Ташкент, Улица Бобура, 174'}
       text={'Каркасная часть многих зданий внутри парка построен на основе металлоконструкций нашего производство.'}
        />
-      <Slider />
-      <Footer />
+      <Slider  coruseltext={'HelloWorld'}  coruseltitle={'Helloworld'}/>
       <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} />
-      <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} />
+    <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} /> */}
+    <Footer />
     </div>
   );
 }

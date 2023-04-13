@@ -4,8 +4,15 @@ width: 100%;
 height: 100%;
 }
 
+.link :hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
 .red{
     color: #fff;
+    height: 100%;
     width: 100%;
     background-color: red;
     border: none;
@@ -13,6 +20,7 @@ height: 100%;
 
 .borderWhite{
     font-size: 18px;
+    height: 100%;
     width: 100%;
     background-color: none;
     color: #fff;
@@ -20,6 +28,7 @@ height: 100%;
 }
 .borderRed{
     width: 100%;
+    height: 100%;
     font-size: 18px;
     background-color: none;
     color: red;
