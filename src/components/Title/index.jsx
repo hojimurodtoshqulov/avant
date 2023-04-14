@@ -1,7 +1,9 @@
 import React from "react";
+import img from '../../assets/red_element.svg';
+import c from './style.module.scss';
 
-function Title({img,title,text}) {
-  return <div className="nmadr">Title
+function Title({title, text}) {
+  return <div className={c.title}>
   <div><img src={img} alt="" /></div>
   <div>
     <h4>{title}</h4>

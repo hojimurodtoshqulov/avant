@@ -4,19 +4,18 @@ import c from "./style.module.scss";
 
 function Footer() {
   return (
-    <footer>
-      Footer
+    <footer className={c.footer}>
       <div className={c.Footercards}>
         <div className={c.card}>
           {" "}
           <img src={logo} alt="" />
         </div>
         <div className={c.card}>
-          <h5>
+          <p>
             Компания OOO 'ENGINEERING' Avant Metal Group зарекомендовала себя
             как надежного и ответственного производителя, в продукции которой вы
             можете быть уверены.
-          </h5>
+          </p>
           <hr />
           {/* <div>
             <img src={} alt="" />
@@ -25,14 +24,14 @@ function Footer() {
           </div> */}
         </div>
         <div className={c.card}>
-          <h5>ПРОИЗВОДСТВО</h5>
+          <h4>ПРОИЗВОДСТВО</h4>
           <p>Ангары</p>
           <p>Уникальные здания</p>
           <p>Промышленные здания</p>
           <p>Строительные краны</p>
         </div>
         <div className={c.card}>
-          <h5>О КОМПАНИИ</h5>
+          <h4>О КОМПАНИИ</h4>
           <p>Производтвенный комплекс</p>
           <p>Конструкторское бюро</p>
           <p>Оборудование</p>
@@ -40,7 +39,7 @@ function Footer() {
           <p>Новости</p>
         </div>
         <div className={c.card}>
-          <h5>КОНТАКТЫ</h5>
+          <h4>КОНТАКТЫ</h4>
           <p>Обратная связь</p>
           <hr />
           <p>По вопросам партнерства</p>
