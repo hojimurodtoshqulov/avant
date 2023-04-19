@@ -16,6 +16,7 @@ const onFinishFailed = (errorInfo) => {
 
 function Navbar() {
   let barRef = useRef();
+  let blurRef = useRef()
   let navFormRef = useRef();
 
   const showNavbar = () => {
@@ -29,7 +30,8 @@ function Navbar() {
 
   return (
     <nav className={"navbar"}>
-      <div className={"container"}>
+      <div ref={blurRef} className={"container"}>
+        <div></div>
         <div className={"leftcontainer"}>
           <div className={"logo"}>
             <Link to={"/"}>
@@ -38,6 +40,7 @@ function Navbar() {
           </div>
           <div ref={barRef} className={"links"}>
             <div className={"a"}>
+              <div className="blur"></div>
               <Link to={"/about"}>О Нас</Link>
             </div>
             <div className={"a"}>
@@ -75,6 +78,8 @@ function Navbar() {
         {/* <Button btnClassName={"borderRed"} link={'kun.uz'} btnTitle={'salomred'}  /> */}
       </div>
 
+
+    {/* zakazat */}
       <div  className={'formPage'} ref={navFormRef}>
         <h1>
           Заполните форму обратной связи и мы оперативно свяжемся с вами !

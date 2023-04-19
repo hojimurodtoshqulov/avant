@@ -74,13 +74,15 @@
     transition: 1s;
     padding: 5%;
     text-align: center;
+    transition: 1s;
     p{
         margin: 5% 0;
     }
 }
 
 .navform{
-    left: 50%;
+    right:  0%;
+    width: 100%;
 }
 
 a{
@@ -91,11 +93,13 @@ a{
 @media(max-width: 1024px){
     .navbar{
         .leftcontainer{
+            width: 100%;
             .links{
+                z-index: 123;
                 height: 100%;
-                width: 50%;
+                width: 100%;
                 position: fixed;
-                left: -50%;
+                left: -100%;
                 top: 0;
                 flex-direction: column;
                 justify-content: center;
@@ -105,7 +109,7 @@ a{
             }
             
             .bars{
-                left: 0;
+                left: 0;              
             }
         }
 

@@ -6,7 +6,6 @@ import { routeGenerator } from "../../utils/routeGenerator";
 import styles from "./layout.module.scss";
 import Slider from "../../components/slider";
 import Homecateg from "../../components/homecateg";
-import OurProject from "../../components/OurProject";
 import Mincateg from "../../components/mincateg";
 
 
@@ -26,7 +25,7 @@ function AppLayout() {
       text={'Каркасная часть многих зданий внутри парка построен на основе металлоконструкций нашего производство.'}
        />
       <Slider  coruseltext={'HelloWorld'}  coruseltitle={'Helloworld'}/>
-      <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} />
+      
     <Mincateg  img={'https://cdn-icons-png.flaticon.com/512/99/99072.png'} title={'qwerty'} /> */}
     <Footer />
     </div>
